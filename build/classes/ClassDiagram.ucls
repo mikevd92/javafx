@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="model.Manager" project="ISS2" file="/ISS2/src/model/Manager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="39" y="5"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.Place" project="ISS2" file="/ISS2/src/model/Place.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="242" y="30"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.Play" project="ISS2" file="/ISS2/src/model/Play.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="559" y="75"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="model.User" project="ISS2" file="/ISS2/src/model/User.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="930" y="33"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="persistence.DAO" project="ISS2" file="/ISS2/src/persistence/DAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="755" y="-41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="persistence.JpaDAO" project="ISS2" file="/ISS2/src/persistence/JpaDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="110" y="831"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="persistence.JpaManagerDAO" project="ISS2" 
+    file="/ISS2/src/persistence/JpaManagerDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="151" y="474"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="persistence.JpaManagerPlaceDAO" project="ISS2" 
+    file="/ISS2/src/persistence/JpaManagerPlaceDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="902" y="647"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="persistence.JpaManagerPlayDAO" project="ISS2" 
+    file="/ISS2/src/persistence/JpaManagerPlayDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1212" y="-9"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="persistence.JpaUserDAO" project="ISS2" 
+    file="/ISS2/src/persistence/JpaUserDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1407" y="727"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="persistence.JpaUserPlaceDAO" project="ISS2" 
+    file="/ISS2/src/persistence/JpaUserPlaceDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1158" y="912"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="persistence.JpaUserPlayDAO" project="ISS2" 
+    file="/ISS2/src/persistence/JpaUserPlayDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="342" y="767"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="persistence.ManagerPlaceDAO" project="ISS2" 
+    file="/ISS2/src/persistence/ManagerPlaceDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="155" x="251" y="590"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="14" language="java" name="persistence.ManagerPlayDAO" project="ISS2" 
+    file="/ISS2/src/persistence/ManagerPlayDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="259" x="-38" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="15" language="java" name="persistence.ManagerDAO" project="ISS2" 
+    file="/ISS2/src/persistence/ManagerDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1023" y="1180"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="16" language="java" name="persistence.UserDAO" project="ISS2" file="/ISS2/src/persistence/UserDAO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="93" y="1049"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="persistence.UserPlaceDAO" project="ISS2" 
+    file="/ISS2/src/persistence/UserPlaceDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="930" y="812"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="18" language="java" name="persistence.UserPlayDAO" project="ISS2" 
+    file="/ISS2/src/persistence/UserPlayDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="146" x="486" y="1109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="service.DefaultManagerPlayService" project="ISS2" 
+    file="/ISS2/src/service/DefaultManagerPlayService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="619" y="685"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="service.DefaultManagerService" project="ISS2" 
+    file="/ISS2/src/service/DefaultManagerService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="836" y="965"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="service.DefaultManagerValidator" project="ISS2" 
+    file="/ISS2/src/service/DefaultManagerValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="647" y="898"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="service.DefaultPlaceValidator" project="ISS2" 
+    file="/ISS2/src/service/DefaultPlaceValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="700" y="1205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="service.DefaultPlayValidator" project="ISS2" 
+    file="/ISS2/src/service/DefaultPlayValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1079" y="1067"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="service.DefaultService" project="ISS2" 
+    file="/ISS2/src/service/DefaultService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="180" x="470" y="1036"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="service.DefaultUserPlaceService" project="ISS2" 
+    file="/ISS2/src/service/DefaultUserPlaceService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="186" x="237" y="1053"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="service.DefaultUserPlayService" project="ISS2" 
+    file="/ISS2/src/service/DefaultUserPlayService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="158" x="672" y="1112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="service.DefaultUserService" project="ISS2" 
+    file="/ISS2/src/service/DefaultUserService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="100" y="1237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="service.DefaultUserValidator" project="ISS2" 
+    file="/ISS2/src/service/DefaultUserValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="394" y="936"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="29" language="java" name="service.IService" project="ISS2" file="/ISS2/src/service/IService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="94" y="1126"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="30" language="java" name="service.ManagerPlayService" project="ISS2" 
+    file="/ISS2/src/service/ManagerPlayService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1382" y="1390"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="31" language="java" name="service.ManagerService" project="ISS2" 
+    file="/ISS2/src/service/ManagerService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="797" y="1055"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="32" language="java" name="service.ManagerValidator" project="ISS2" 
+    file="/ISS2/src/service/ManagerValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="237" y="1694"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="33" language="java" name="service.PlaceValidator" project="ISS2" 
+    file="/ISS2/src/service/PlaceValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="599" y="1005"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="34" language="java" name="service.PlayValidator" project="ISS2" 
+    file="/ISS2/src/service/PlayValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="561" y="1302"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="35" language="java" name="service.UserPlaceService" project="ISS2" 
+    file="/ISS2/src/service/UserPlaceService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="394" y="1445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="36" language="java" name="service.UserPlayService" project="ISS2" 
+    file="/ISS2/src/service/UserPlayService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="816" y="1764"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="37" language="java" name="service.UserService" project="ISS2" file="/ISS2/src/service/UserService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="97" y="1559"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="38" language="java" name="service.UserValidator" project="ISS2" 
+    file="/ISS2/src/service/UserValidator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="308" y="1314"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="39" language="java" name="controller.DController" project="ISS2" 
+    file="/ISS2/src/controller/DController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="163" y="2105"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="40" language="java" name="controller.IController" project="ISS2" 
+    file="/ISS2/src/controller/IController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="797" y="1536"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="41" language="java" name="exceptions.AppException" project="ISS2" 
+    file="/ISS2/src/exceptions/AppException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1153" y="650"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="main.Main" project="ISS2" file="/ISS2/src/main/Main.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="613" y="2401"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="presentation.DefaultLoginView" project="ISS2" 
+    file="/ISS2/src/presentation/DefaultLoginView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1383" y="303"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="presentation.DefaultManagerView" project="ISS2" 
+    file="/ISS2/src/presentation/DefaultManagerView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1080" y="2005"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="presentation.DefaultSignUpView" project="ISS2" 
+    file="/ISS2/src/presentation/DefaultSignUpView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1417" y="1042"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="presentation.DefaultUserView" project="ISS2" 
+    file="/ISS2/src/presentation/DefaultUserView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="487" y="1943"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="presentation.DefaultView" project="ISS2" 
+    file="/ISS2/src/presentation/DefaultView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="215" y="1429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="48" language="java" name="presentation.IView" project="ISS2" file="/ISS2/src/presentation/IView.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="105" y="1327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="49" language="java" name="presentation.LoginView" project="ISS2" 
+    file="/ISS2/src/presentation/LoginView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1005" y="1301"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="50" language="java" name="presentation.ManagerView" project="ISS2" 
+    file="/ISS2/src/presentation/ManagerView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1349" y="1666"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="51" language="java" name="presentation.SignUpView" project="ISS2" 
+    file="/ISS2/src/presentation/SignUpView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="821" y="1922"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="52" language="java" name="presentation.UserView" project="ISS2" 
+    file="/ISS2/src/presentation/UserView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1149" y="1375"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="54">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="55" name="controller"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="59">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="60" name="mngService"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="62">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <association id="64">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="65" name="userView"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="67">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <realization id="68">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="32"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <association id="70">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="71" name="userPlayService"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="75">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="76" name="mngPlayDAO"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="79">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="80">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="81" name="places"/>      
+      <multiplicity id="82" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="83">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <dependency id="84">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="85">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="86">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <realization id="87">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="29"/>  
+  </realization>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="89">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="90" name="mngView"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="92">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="93">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="94" name="userPlayDAO"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="96">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="97">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="98">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="38"/>  
+  </realization>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="52"/>  
+  </dependency>  
+  <realization id="100">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="102">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="103">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="104" name="play"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="107">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="108" name="controller"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="111" name="mngViews"/>      
+      <multiplicity id="112" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="113">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="114">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="115">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <association id="117">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="118" name="mngDAO"/>      
+      <multiplicity id="119" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="121" name="userPlaceDAO"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="123">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <realization id="124">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <generalization id="125">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <realization id="126">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="36"/>  
+  </realization>  
+  <generalization id="127">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="128">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="129">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="130">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="131">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="132">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="133">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="134">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="135" name="userValidator"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="137">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <dependency id="138">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="139">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="140">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="141">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="142">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="143">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="144">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="145">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="146">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="147">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <realization id="148">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <generalization id="149">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <realization id="150">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <dependency id="151">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <realization id="152">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="40"/>  
+  </realization>  
+  <dependency id="153">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="154">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="155">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="33"/>  
+  </realization>  
+  <association id="156">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="157" name="mView"/>      
+      <multiplicity id="158" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="159">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="160">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="161" name="play"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="163">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <generalization id="164">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <generalization id="165">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <dependency id="166">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="167">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <realization id="168">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <realization id="169">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <realization id="170">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <association id="171">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="172" name="mngPlaceDAO"/>      
+      <multiplicity id="173" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="174">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="175">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="176" name="user"/>      
+      <multiplicity id="177" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="178">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="179" name="mngPlayService"/>      
+      <multiplicity id="180" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="181">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="182">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="183">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="184" name="userViews"/>      
+      <multiplicity id="185" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="186">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="187">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="188" name="playValidator"/>      
+      <multiplicity id="189" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="190">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="191">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <realization id="192">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <association id="193">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="194" name="places"/>      
+      <multiplicity id="195" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="196">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="197">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="49"/>  
+  </dependency>  
+  <association id="198">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="199" name="userPlaceService"/>      
+      <multiplicity id="200" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="201">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <association id="202">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="203" name="place"/>      
+      <multiplicity id="204" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="205">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="206" name="viewStack"/>      
+      <multiplicity id="207" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="49" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="208">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="209" name="places"/>      
+      <multiplicity id="210" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="211">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="212">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="213">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="47"/>  
+  </generalization>  
+  <dependency id="214">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <dependency id="215">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="216">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="217" name="loginView"/>      
+      <multiplicity id="218" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="49" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="219">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="220" name="manager"/>      
+      <multiplicity id="221" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="222">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="37"/>  
+  </realization>  
+  <association id="223">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="224" name="singUpView"/>      
+      <multiplicity id="225" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="226">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="227">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="228">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="229" name="userService"/>      
+      <multiplicity id="230" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="231">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <association id="232">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="233" name="controller"/>      
+      <multiplicity id="234" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="235">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="236">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="237">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="238" name="placeValidator"/>      
+      <multiplicity id="239" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="240">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="241">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="242" name="mngValidator"/>      
+      <multiplicity id="243" minimum="0" maximum="1">        
+        <position height="16" width="23" x="244" y="2202"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="244">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="48"/>  
+  </realization>  
+  <dependency id="245">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <realization id="246">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="34"/>  
+  </realization>  
+  <dependency id="247">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="248">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="249">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="250" name="userDAO"/>      
+      <multiplicity id="251" minimum="0" maximum="1">        
+        <position height="16" width="23" x="367" y="1200"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="252">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="253">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <dependency id="254">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="255">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <realization id="256">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="35"/>  
+  </realization>  
+  <dependency id="257">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="258">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="50"/>  
+  </dependency>  
+  <dependency id="259">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <generalization id="260">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <dependency id="261">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="41"/>  
+  </dependency>  
+  <association id="262">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="263" name="user"/>      
+      <multiplicity id="264" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="265">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
+                default-lazy-init="true">
+               
+        <bean id="performanceMonitor" class="org.springframework.aop.interceptor.JamonPerformanceMonitorInterceptor" />
+        
+    	<aop:config>
+        	<aop:pointcut id="allServiceMethods" expression="execution(* persistence.*.*(..))"/>
+        	<aop:advisor pointcut-ref="allServiceMethods" advice-ref="performanceMonitor" order="2"/>
+    	</aop:config>    
+    	    
+</beans>           

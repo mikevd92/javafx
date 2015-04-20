@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<ScrollPane fitToWidth="true" fx:controller="FXPresentation.DefaultSignUpController" xmlns:fx="http://javafx.com/fxml">
+<GridPane  
+     alignment="center" hgap="10" vgap="10">
+<padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+<Text id="login" style="-fx-font: NORMAL 20 Tahoma;" text="Please SignUp or Return To Login" 
+        GridPane.columnIndex="0" GridPane.rowIndex="0"
+        GridPane.columnSpan="2"/>
+ 
+    <Label id="signup-name" style="-fx-font: NORMAL 15 Tahoma;" text="User Name:"
+        GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+ 
+    <TextField fx:id="userNameField"
+        GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+ 
+    <Label id="signup-password" style="-fx-font: NORMAL 15 Tahoma;" text="Password:"
+        GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+ 
+    <PasswordField fx:id="passwordField" 
+        GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    
+    <Label id="dob" style="-fx-font: NORMAL 15 Tahoma;" text="DOB:"
+        GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+        
+    <TextField fx:id="DOBField"
+        GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+        
+    <Label id="address" style="-fx-font: NORMAL 15 Tahoma;" text="Address:"
+        GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+        
+    <TextField fx:id="addressField"
+        GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    
+    <HBox spacing="10" alignment="bottom_right" 
+        GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <Button text="Return" onAction="#goBack"/>
+        <Button text="Sign Up" onAction="#signUp"/>
+	</HBox>
+</GridPane>
+</ScrollPane>
+

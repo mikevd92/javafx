@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<ScrollPane fitToWidth="true" fx:controller="FXPresentation.DefaultLoginController" xmlns:fx="http://javafx.com/fxml">
+<GridPane 
+     alignment="center" hgap="10" vgap="10">
+<padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+<Text id="welcome-text" style="-fx-font: NORMAL 20 Tahoma; -fx-text-fill: #ffffff" text="Welcome" 
+        GridPane.columnIndex="1" GridPane.rowIndex="0"
+        GridPane.columnSpan="2"/>
+ 
+    <Label id="user-name" style="-fx-font: NORMAL 15 Tahoma;" text="User Name:"
+        GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+ 
+    <TextField fx:id="userField"
+        GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+ 
+    <Label id="user-password" style="-fx-font: NORMAL 15 Tahoma;" text="Password:"
+        GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+ 
+    <PasswordField fx:id="passwordField" 
+        GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <HBox spacing="10" alignment="bottom_right" 
+        GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <Button text="Sign In"     
+        onAction="#signIn"/>
+</HBox>
+</GridPane>
+</ScrollPane>

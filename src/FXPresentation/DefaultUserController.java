@@ -10,8 +10,9 @@ import service.UserService;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Dialogs;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TableView;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.TableView.TableViewSelectionModel;
 
 /**
@@ -42,7 +43,10 @@ public class DefaultUserController extends ImpControlledScreen implements UserCo
 				}else
 		             throw new AppException("Controller Exception: No Seat selected");  
 			} catch (AppException e1) {
-				Dialogs.showErrorDialog(stage, e1.getMessage());
+				Alert alert=new Alert(AlertType.ERROR);
+				alert.setHeaderText("Application Exception");
+				alert.setContentText(e1.getMessage());
+				alert.show();
 			}
     }
     @FXML
@@ -62,7 +66,10 @@ public class DefaultUserController extends ImpControlledScreen implements UserCo
 				}else
 		             throw new AppException("Controller Exception: No Seat selected");  
 			} catch (AppException e1) {
-				Dialogs.showErrorDialog(stage, e1.getMessage());
+				Alert alert=new Alert(AlertType.ERROR);
+				alert.setHeaderText("Application Exception");
+				alert.setContentText(e1.getMessage());
+				alert.show();
 			}
     }
 	public void refreshSeats() {
@@ -77,7 +84,10 @@ public class DefaultUserController extends ImpControlledScreen implements UserCo
 			playIndex=index;
 			places = this.userService.findByShowID(index);
 		} catch (AppException e) {
-			Dialogs.showErrorDialog(stage, e.getMessage());
+			Alert alert=new Alert(AlertType.ERROR);
+			alert.setHeaderText("Application Exception");
+			alert.setContentText(e.getMessage());
+			alert.show();
 		}
 		return places;
 	}
@@ -85,7 +95,10 @@ public class DefaultUserController extends ImpControlledScreen implements UserCo
   		try {
 			return this.userService.displayPlays();
 		} catch (AppException e) {
-			Dialogs.showErrorDialog(stage, e.getMessage());
+			Alert alert=new Alert(AlertType.ERROR);
+			alert.setHeaderText("Application Exception");
+			alert.setContentText(e.getMessage());
+			alert.show();
 		}
 		return null;
   	}

@@ -8,9 +8,10 @@ import service.PlayValidator;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Dialogs;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.TableView.TableViewSelectionModel;
 
 /**
@@ -42,7 +43,10 @@ public class DefaultManagerController extends ImpControlledScreen implements Man
 			this.playValidator.validate(playName, startDate, startTime, endTime,ticketPrice);	
 			this.mngService.addPlay(playName, startDate, startTime, endTime, ticketPrice);
 		} catch (AppException e1) {
-			Dialogs.showErrorDialog(stage, e1.getMessage());
+			Alert alert=new Alert(AlertType.ERROR);
+			alert.setHeaderText("Application Exception");
+			alert.setContentText(e1.getMessage());
+			alert.show();
 		}
     }
     @FXML public void removePlay(ActionEvent e){
@@ -56,7 +60,10 @@ public class DefaultManagerController extends ImpControlledScreen implements Man
 				}else
 		          throw new AppException("Controller Exception: No Play selected");  
 			}catch (AppException e1) {
-				Dialogs.showErrorDialog(stage, e1.getMessage());
+				Alert alert=new Alert(AlertType.ERROR);
+				alert.setHeaderText("Application Exception");
+				alert.setContentText(e1.getMessage());
+				alert.show();
 			}
     }
     @FXML public void updatePlay(ActionEvent e){
@@ -75,14 +82,20 @@ public class DefaultManagerController extends ImpControlledScreen implements Man
         	}else
              throw new AppException("Controller Exception: No Play selected");  
 		} catch (AppException e1) {
-			Dialogs.showErrorDialog(stage, e1.getMessage());
+			Alert alert=new Alert(AlertType.ERROR);
+			alert.setHeaderText("Application Exception");
+			alert.setContentText(e1.getMessage());
+			alert.show();
 		}
     }
 	public ObservableList<Play> displayMPlays() {
 		try {
 			return this.mngService.displayPlays();
 		} catch (AppException e) {
-			Dialogs.showErrorDialog(stage, e.getMessage());
+			Alert alert=new Alert(AlertType.ERROR);
+			alert.setHeaderText("Application Exception");
+			alert.setContentText(e.getMessage());
+			alert.show();
 		}
 		return null;
 	}

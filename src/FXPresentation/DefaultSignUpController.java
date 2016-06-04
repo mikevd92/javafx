@@ -11,9 +11,10 @@ import service.UserService;
 import service.UserValidator;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Dialogs;
+import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Alert.AlertType;
 /**
  * FXML Controller class
  *
@@ -42,7 +43,10 @@ public class DefaultSignUpController extends ImpControlledScreen  {
 			userService.addUser(name, pass, address, dob);
 			this.screensController.setScreen(ScreenLoader.LoginID);
 		} catch (AppException e) {
-			Dialogs.showErrorDialog(stage, e.getMessage());
+			Alert alert=new Alert(AlertType.ERROR);
+			alert.setHeaderText("Application Exception");
+			alert.setContentText(e.getMessage());
+			alert.show();
 		}
     }
     @FXML

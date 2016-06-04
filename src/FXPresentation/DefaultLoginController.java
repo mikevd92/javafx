@@ -8,9 +8,10 @@ import service.ManagerValidator;
 import service.UserService;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Dialogs;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 /**
  * FXML Controller class
  *
@@ -59,7 +60,10 @@ public class DefaultLoginController extends ImpControlledScreen  {
 						this.screensController.unloadScreen(ScreenLoader.SignUpID);
 					}
 				} catch (AppException e1) {
-				Dialogs.showErrorDialog(stage, e1.getMessage());
+					Alert alert=new Alert(AlertType.ERROR);
+					alert.setHeaderText("Unable to Login");
+					alert.setContentText(e1.getMessage());
+					alert.show();
 					stage.setTitle("Sign Up");
 					stage.setHeight(270);
 					stage.setWidth(430);

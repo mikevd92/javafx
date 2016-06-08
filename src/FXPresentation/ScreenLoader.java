@@ -43,14 +43,24 @@ public class ScreenLoader extends Application {
 	protected class ManagerPlayListener implements Observer{
 		
 	    private ObservableList<Play> data;
+	    private int size=-1;
 		@Override
 		public void update(Subject subject) {
 			for(ManagerController mngController : mngControllers){
 				mngController.refresh();
 			}
 			data=mngControllers.peek().getItems();
-			for(UserController userController : userControllers){
-				userController.refreshPlays(data);
+			if(size!=-1&&size>data.size()){
+				size=data.size();
+				for(UserController userController : userControllers){
+					userController.refreshPlays(data);
+					userController.refreshSeats();
+				}
+			}else{
+				size=data.size();
+				for(UserController userController : userControllers){
+					userController.refreshPlays(data);
+				}
 			}
 		}	
 	}

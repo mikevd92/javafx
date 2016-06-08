@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import exceptions.AppException;
 import service.ManagerService;
 import service.PlayValidator;
+import service.UserService;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -22,6 +23,7 @@ import javafx.scene.control.TableView.TableViewSelectionModel;
 public class DefaultManagerController extends ImpControlledScreen implements ManagerController{
 	
 	@Autowired private ManagerService mngService;
+	@Autowired private UserService userService;
 	@Autowired private PlayValidator playValidator;
     @FXML private TextField playNameField; 
     @FXML private TextField startDateField; 

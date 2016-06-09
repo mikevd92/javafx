@@ -41,7 +41,7 @@ public class DefaultSignUpController extends ImpControlledScreen  {
 		try {
 			userValidator.validate(name, pass, address, dob);
 			userService.addUser(name, pass, address, dob);
-			this.screensController.setScreen(ScreenLoader.LoginID);
+			this.screensController.setScreen(FXApp.LoginID);
 		} catch (AppException e) {
 			Alert alert=new Alert(AlertType.ERROR);
 			alert.setHeaderText("Application Exception");
@@ -54,6 +54,6 @@ public class DefaultSignUpController extends ImpControlledScreen  {
     	stage.setTitle("Login");
         stage.setHeight(200);
         stage.setWidth(400);
-    	this.screensController.setScreen(ScreenLoader.LoginID);
+    	this.screensController.setScreen(FXApp.LoginID);
     }
 }

@@ -92,7 +92,7 @@ public class FXThread implements Runnable {
 	loadScreen=(Pane)screen.getContent();
 	controler = loader.getController();   
 	controler.setStage(stage);
-	mainContainer.loadScreen(ScreenLoader.SignUpID,loadScreen,controler);
+	mainContainer.loadScreen(FXApp.SignUpID,loadScreen,controler);
 	
 	screen = (ScrollPane) loader.load(UserID);
 	screen.setHbarPolicy(ScrollPane.ScrollBarPolicy.ALWAYS);
@@ -127,8 +127,8 @@ public class FXThread implements Runnable {
 			}
 		}
 	});     
-	mainContainer.loadScreen(ScreenLoader.UserID,loadScreen,contr);
-	mainContainer.setScreen(ScreenLoader.LoginID);
+	mainContainer.loadScreen(FXApp.UserID,loadScreen,contr);
+	mainContainer.setScreen(FXApp.LoginID);
 	// Group root = new Group();
 	//root.getChildren().addAll(mainContainer);
 	Scene scene = new Scene(mainContainer);

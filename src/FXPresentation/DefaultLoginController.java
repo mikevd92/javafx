@@ -39,10 +39,10 @@ public class DefaultLoginController extends ImpControlledScreen  {
 				stage.setTitle("Manager: "+name);
 				stage.setHeight(540);
 				stage.setWidth(900);
-				this.screensController.setScreen(ScreenLoader.ManagerID);
-				this.screensController.unloadScreen(ScreenLoader.LoginID);
-				this.screensController.unloadScreen(ScreenLoader.SignUpID);
-				this.screensController.unloadScreen(ScreenLoader.UserID);
+				this.screensController.setScreen(FXApp.ManagerID);
+				this.screensController.unloadScreen(FXApp.LoginID);
+				this.screensController.unloadScreen(FXApp.SignUpID);
+				this.screensController.unloadScreen(FXApp.UserID);
 			}
 			} catch (AppException e) {
 				try {
@@ -52,12 +52,12 @@ public class DefaultLoginController extends ImpControlledScreen  {
 						stage.setTitle("User: "+name);
 						stage.setHeight(540);
 						stage.setWidth(1130);
-						this.screensController.setScreen(ScreenLoader.UserID);
-						DefaultUserController userController=(DefaultUserController)this.screensController.getController(ScreenLoader.UserID);
+						this.screensController.setScreen(FXApp.UserID);
+						DefaultUserController userController=(DefaultUserController)this.screensController.getController(FXApp.UserID);
 						userController.setName(name);
-						this.screensController.unloadScreen(ScreenLoader.LoginID);
-						this.screensController.unloadScreen(ScreenLoader.ManagerID);
-						this.screensController.unloadScreen(ScreenLoader.SignUpID);
+						this.screensController.unloadScreen(FXApp.LoginID);
+						this.screensController.unloadScreen(FXApp.ManagerID);
+						this.screensController.unloadScreen(FXApp.SignUpID);
 					}
 				} catch (AppException e1) {
 					Alert alert=new Alert(AlertType.ERROR);
@@ -67,7 +67,7 @@ public class DefaultLoginController extends ImpControlledScreen  {
 					stage.setTitle("Sign Up");
 					stage.setHeight(270);
 					stage.setWidth(430);
-					this.screensController.setScreen(ScreenLoader.SignUpID);
+					this.screensController.setScreen(FXApp.SignUpID);
 				}
 		}
 		userField.setText("");

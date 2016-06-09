@@ -25,7 +25,7 @@ import javafx.application.Platform;
  *
  * @author Mihai
  */
-public class ScreenLoader extends Application {
+public class FXApp extends Application {
     public static String LoginID = "LoginView.fxml";
     public static String ManagerID = "ManagerView.fxml";
     public static String SignUpID = "SignUpView.fxml";
@@ -96,7 +96,6 @@ public class ScreenLoader extends Application {
 					   c=0;  
 					}
     });
-    	primaryStage.setTitle("Main");
     	VBox box=new VBox();
     	box.setSpacing(10);
     	box.setPadding(new Insets(20, 20, 20, 70)); 

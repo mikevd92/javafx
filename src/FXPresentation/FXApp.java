@@ -113,13 +113,13 @@ public class FXApp extends Application {
         primaryStage.setTitle("RMS");
         primaryStage.setResizable(false);
 		primaryStage.setScene(myScene); 
-        primaryStage.show();
-        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>(){
+		primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>(){
         	@Override
         	public void handle(final WindowEvent arg0){
         		System.exit(0);
         	}
-        } );
+        });
+        primaryStage.show();
    }
 
     /**

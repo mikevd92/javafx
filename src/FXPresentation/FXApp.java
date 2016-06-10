@@ -20,6 +20,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
 import javafx.application.Platform;
 /**
  *
@@ -113,6 +114,12 @@ public class FXApp extends Application {
         primaryStage.setResizable(false);
 		primaryStage.setScene(myScene); 
         primaryStage.show();
+        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>(){
+        	@Override
+        	public void handle(final WindowEvent arg0){
+        		System.exit(0);
+        	}
+        } );
    }
 
     /**

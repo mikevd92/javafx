@@ -156,15 +156,15 @@ public class JpaPlayDAO extends JpaDAO<Play, Integer> implements
 			Query query = entityManager
 					.createQuery("SELECT COUNT(X) FROM "
 							+ entityClass.getName()
-							+ " X WHERE X.startDate=:ds AND ( (X.startTime<=:ts OR x.endTime<=:te) AND (X.startTime>=:ts OR x.endTime>=:te) ) )");
+							+ " X WHERE X.startDate=:ds AND ( (X.startTime<:ts AND X.endTime<:ts) OR (X.startTime>:te AND X.endTime>:te) ) )");
 			query.setParameter("ds", ds);
 			query.setParameter("ts", ts);
 			query.setParameter("te", te);
 			result = (Long) query.getSingleResult();
 			if (result.intValue() == 0)
-				return true;
-			else
 				return false;
+			else
+				return true;
 		} catch (Exception ex) {
 			throw new AppException("DB Exception: " + ex.getMessage());
 		}

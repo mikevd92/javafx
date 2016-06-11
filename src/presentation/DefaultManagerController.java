@@ -90,6 +90,14 @@ public class DefaultManagerController extends ImpControlledScreen implements Man
 			alert.show();
 		}
     }
+    @FXML
+     public void clear(ActionEvent e){
+    	playNameField.setText("");
+    	startDateField.setText("");
+    	startTimeField.setText("");
+    	endTimeField.setText("");
+    	ticketPriceField.setText("");
+    }
 	public ObservableList<Play> displayMPlays() {
 		try {
 			return this.mngService.displayPlays();

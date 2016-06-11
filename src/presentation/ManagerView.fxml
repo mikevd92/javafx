@@ -63,6 +63,7 @@
   	 <Button onAction="#addPlay" text="Add" />
   	 <Button onAction="#removePlay" text="Remove" />
   	 <Button onAction="#updatePlay" text="Update" />
+  	 <Button onAction="#clear" text="Clear" />
   </VBox>
 </GridPane>
 </ScrollPane>

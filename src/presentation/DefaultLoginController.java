@@ -70,7 +70,7 @@ public class DefaultLoginController extends ImpControlledScreen  {
 		passwordField.setText("");
     } 
 	@FXML
-	public void signUp(){
+	public void signUp(ActionEvent e){
 		stage.setTitle("Sign Up");
 		stage.setHeight(270);
 		stage.setWidth(430);

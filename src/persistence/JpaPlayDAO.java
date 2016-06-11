@@ -89,6 +89,8 @@ public class JpaPlayDAO extends JpaDAO<Play, Integer> implements
 		} catch (Exception e) {
 			throw new AppException("DB Exception : Invalid Time Format");
 		}
+			if(play.getStartTime().after(play.getEndTime()))
+				throw new AppException("DB Exception : Start Time can't be after End Time");
 			if(ticketPrice!=null&&!ticketPrice.equals("")){
 			priceTicket=Integer.parseInt(ticketPrice);
 			if(priceTicket>=0)
@@ -125,6 +127,8 @@ public class JpaPlayDAO extends JpaDAO<Play, Integer> implements
 		} catch (Exception e) {
 			throw new AppException("DB Exception : Invalid Time Format");
 		}
+		if(play.getStartTime().after(play.getEndTime()))
+			throw new AppException("DB Exception : Start Time can't be after End Time");
 		if(ticketPrice!=null && !ticketPrice.equals("")){
 			int priceTicket=Integer.parseInt(ticketPrice);
 			if(priceTicket>0)

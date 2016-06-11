@@ -26,12 +26,12 @@ public class Place implements Serializable {
 	private String name;
 
 	//bi-directional many-to-one association to Play
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name="idPlay")
 	private Play play;
 
 	//bi-directional many-to-one association to User
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name="idUser")
 	private User user;
 

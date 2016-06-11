@@ -116,7 +116,7 @@ public class FXApp extends Application {
 		primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>(){
         	@Override
         	public void handle(final WindowEvent arg0){
-        		System.exit(0);
+        		Platform.exit();
         	}
         });
         primaryStage.show();

@@ -1,4 +1,4 @@
-package FXPresentation;
+package presentation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

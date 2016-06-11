@@ -1,4 +1,4 @@
-package FXPresentation;
+package presentation;
 
 import java.util.HashMap;
 import javafx.animation.KeyFrame;

@@ -5,10 +5,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Scope;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import FXPresentation.DefaultLoginController;
-import FXPresentation.DefaultUserController;
-import FXPresentation.DefaultManagerController;
-import FXPresentation.DefaultSignUpController;
+
+import presentation.DefaultLoginController;
+import presentation.DefaultManagerController;
+import presentation.DefaultSignUpController;
+import presentation.DefaultUserController;
 @Configuration
 @EnableTransactionManagement
 @Import(ServiceConfig.class)

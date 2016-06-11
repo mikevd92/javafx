@@ -1,4 +1,4 @@
-package FXPresentation;
+package presentation;
 
 import javafx.collections.ObservableList;
 import model.Play;

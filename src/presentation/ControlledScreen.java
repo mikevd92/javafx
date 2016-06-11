@@ -37,7 +37,7 @@
  * only if the new code is made subject to such option by the copyright
  * holder.
  */ 
-package FXPresentation;
+package presentation;
 
 import javafx.fxml.Initializable;
 import javafx.stage.Stage;

@@ -1,4 +1,4 @@
-package FXPresentation;
+package presentation;
 
 import java.util.Stack;
 import javafx.beans.value.ChangeListener;
@@ -132,7 +132,7 @@ public class FXThread implements Runnable {
 	// Group root = new Group();
 	//root.getChildren().addAll(mainContainer);
 	Scene scene = new Scene(mainContainer);
-	scene.getStylesheets().add("FXPresentation/stylesheet.css");
+	scene.getStylesheets().add("presentation/stylesheet.css");
 	stage.setHeight(200);
 	stage.setWidth(400);
 	stage.setTitle("Login");

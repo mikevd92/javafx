@@ -5,13 +5,13 @@ import org.aspectj.lang.annotation.Pointcut;
 
 public aspect ControlAspect	extends ObserverPattern {
 	
-	@DeclareParents("FXPresentation.ScreenLoader.UserPlaceListener")
+	@DeclareParents("presentation.ScreenLoader.UserPlaceListener")
 	Observer ObserverInterface;
 	
 	@DeclareParents("service.UserService")
 	Subject SubjectInterface;
 	
-	@DeclareParents("FXPresentation.ScreenLoader.ManagerPlayListener")
+	@DeclareParents("presentation.ScreenLoader.ManagerPlayListener")
 	Observer SecondObserverInterface;
 
 	@DeclareParents("service.ManagerService")

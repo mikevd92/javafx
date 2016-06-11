@@ -1,4 +1,4 @@
-package FXPresentation;
+package presentation;
 
 import java.net.URL;
 import java.util.ResourceBundle;

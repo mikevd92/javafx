@@ -1,4 +1,4 @@
-package FXPresentation;
+package presentation;
 
 import model.Place;
 import model.Play;

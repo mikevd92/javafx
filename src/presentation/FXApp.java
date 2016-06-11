@@ -1,4 +1,4 @@
-package FXPresentation;
+package presentation;
 
 import java.util.Stack;
 import model.Play;
@@ -105,7 +105,7 @@ public class FXApp extends Application {
         StackPane myPane = new StackPane();
         myPane.getChildren().add(box);
         Scene myScene = new Scene(myPane);
-        myScene.getStylesheets().add("FXPresentation/stylesheet.css");
+        myScene.getStylesheets().add("presentation/stylesheet.css");
         primaryStage.setY(600);
         primaryStage.setX(600);
         primaryStage.setHeight(90);

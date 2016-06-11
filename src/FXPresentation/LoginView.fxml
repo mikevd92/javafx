@@ -26,6 +26,7 @@
         GridPane.columnIndex="1" GridPane.rowIndex="2"/>
     <HBox spacing="10" alignment="bottom_right" 
         GridPane.columnIndex="1" GridPane.rowIndex="4">
+        <Button text="Sign Up" onAction="#signUp"/>
         <Button text="Sign In"     
         onAction="#signIn"/>
 </HBox>

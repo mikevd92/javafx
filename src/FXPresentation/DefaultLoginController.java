@@ -64,13 +64,16 @@ public class DefaultLoginController extends ImpControlledScreen  {
 					alert.setHeaderText("Unable to Login");
 					alert.setContentText(e1.getMessage());
 					alert.show();
-					stage.setTitle("Sign Up");
-					stage.setHeight(270);
-					stage.setWidth(430);
-					this.screensController.setScreen(FXApp.SignUpID);
 				}
 		}
 		userField.setText("");
 		passwordField.setText("");
     } 
+	@FXML
+	public void signUp(){
+		stage.setTitle("Sign Up");
+		stage.setHeight(270);
+		stage.setWidth(430);
+		this.screensController.setScreen(FXApp.SignUpID);
+	}
 }

@@ -50,7 +50,7 @@ public class DefaultSignUpController extends ImpControlledScreen  {
 		}
     }
     @FXML
-    public void goBack(ActionEvent event){
+    public void logIn(ActionEvent event){
     	stage.setTitle("Login");
         stage.setHeight(200);
         stage.setWidth(400);

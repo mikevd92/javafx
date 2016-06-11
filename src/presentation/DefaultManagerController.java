@@ -78,7 +78,6 @@ public class DefaultManagerController extends ImpControlledScreen implements Man
     		TableViewSelectionModel<Play> selectionModel = managerView.getSelectionModel();
     		if(selectionModel.getSelectedItem()!=null){
 	        int dbIndex = selectionModel.getSelectedItem().getIdPlay();
-			this.playValidator.validate(playName, startDate, startTime, endTime,ticketPrice);
 			this.mngService.updatePlay(dbIndex,playName, startDate, startTime, endTime, ticketPrice);
 			refresh();
         	}else
